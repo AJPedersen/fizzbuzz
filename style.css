@@ -1,11 +1,12 @@
 
 
 body {
-	background-color: grey;
+	background-color: white;
 }
 h1 {
 	text-align: center;
 	font-size: 3em;
+	text-decoration: underline;
 }
 h2 {
 	text-align: center;
@@ -29,10 +30,10 @@ p {
 }
 #fizzbuzz {
 	display: inline-block;
-	font-size: 3em;
-	border: solid 1px red;
+	font-size: 3.2em;
+	border: solid 2px black;
 	border-radius: 50%;
-	background-color: red;
+	background-color: white;
 	height: 200px;
 	width: 200px;
 	text-align: center;
@@ -43,25 +44,27 @@ p {
 #fizz {
 	display: inline-block;
 	font-size: 3em;
-	border: solid 1px yellow;
+	border: solid 1px blue;
 	border-radius: 50%;
-	background-color: yellow;
+	background-color: blue;
 	height: 200px;
 	width: 200px;
 	line-height: 200px;
 	text-align: center;
 	padding: 10px;
+	color: white;
 }
 
 #buzz {
 	display: inline-block;
 	font-size: 3em;
-	border: solid 1px orange;
+	border: solid 1px black;
 	border-radius: 50%;
-	background-color: orange;
+	background-color: black;
 	height: 200px;
 	width: 200px;
 	line-height: 200px;
 	text-align: center;
 	padding: 10px;
+	color: white;
 }
